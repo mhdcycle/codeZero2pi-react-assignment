@@ -47,7 +47,7 @@ export default function ApiData(props) {
                     <td>{item.volume_1day_usd}</td>
                     <td>{item.volume_1mth_usd}</td>
                     <td>
-                      <a href={item.website} target="_blank">
+                      <a href={item.website} rel="noreferrer" target="_blank">
                         {item.website}
                       </a>
                     </td>

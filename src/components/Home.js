@@ -1,5 +1,4 @@
 import Discussion from '../assets/discussion.png';
-import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import Landing from './Tabs/Landing';
 import Customers from './Tabs/Customers';
